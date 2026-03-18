@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modal Popup</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Centered Button -->
+<div class="center-container">
+  <button id="openModal" class="open-btn">Open Popup</button>
+</div>
+
+<!-- Overlay -->
+<div id="modalOverlay" class="overlay">
+
+  <!-- Modal -->
+  <div class="modal">
+
+    <!-- Close Button -->
+    <span class="close-btn" id="closeModal">&times;</span>
+
+    <!-- Left Image -->
+    <div class="modal-left">
+      <img src="salespage.png" alt="Drink">
+    </div>
+
+    <!-- Right Content -->
+    <div class="modal-right">
+      <h2>Unlock <span>10% Off</span><br>Your First Order</h2>
+
+      <input type="email" placeholder="Email">
+
+      <button class="submit-btn">UNLOCK OFFERS</button>
+
+      <p class="small-text">
+        By signing up, you agree to receive email marketing from Buddah brands.
+        You can always unsubscribe, at any time.
+      </p>
+
+      <a href="#" id="noThanks" class="no-thanks">No, thanks</a>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

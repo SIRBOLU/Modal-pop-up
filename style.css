@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Background image */
+body {
+  height: 100vh;
+  background: url("background.png") no-repeat center center/cover;
+}
+
+/* Center container */
+.center-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button */
+.open-btn {
+  padding: 14px 25px;
+  background: #0c5b6e;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 35, 70, 0.85);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal */
+.modal {
+  width: 650px;
+  background: #fff;
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+
+
+/* Close */
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* Left image */
+.modal-left {
+  width: 75%;
+}
+
+.modal-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Right */
+.modal-right {
+  width: 55%;
+  padding: 30px;
+}
+
+.modal-right h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #1b2b3a;
+}
+
+.modal-right h2 span {
+  color: #2a7fa0;
+}
+
+/* Input */
+.modal-right input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  background: #1c6e8c;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+/* Text */
+.small-text {
+  font-size: 12px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* No thanks */
+.no-thanks {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}

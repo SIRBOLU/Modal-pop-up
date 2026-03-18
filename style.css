@@ -91,7 +91,7 @@ body {
   display: flex;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
 /* Close */
@@ -116,6 +116,10 @@ body {
 
 /* Right */
 .modal-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   width: 55%;
   padding: 30px;
 }
@@ -161,14 +165,17 @@ body {
 }
 
 /* No thanks */
-.no-thanks {
-  font-size: 14px;
-  color: #333;
-  text-decoration: none;
-  cursor: pointer;
+.thanks-btn {
+  margin-top: 50px;
+  padding: 9px;
+  background-color: rgba(212, 205, 205, 0.2);
+  border: 1px solid #2a7fa0;
+  border-radius: 6px;
+  color: #1c6e8c;
+  transition: ease 0.3s;
 }
 
-.no-thanks:hover {
-  text-decoration: underline;
-  color:#1c6e8c;
+.thanks-btn:hover {
+  background-color: #2a7fa0;
+  color: #fff;
 }

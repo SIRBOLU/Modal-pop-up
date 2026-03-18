@@ -167,3 +167,8 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
+.no-thanks:hover {
+  text-decoration: underline;
+  color:#1c6e8c;
+}

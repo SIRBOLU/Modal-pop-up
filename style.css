@@ -180,11 +180,17 @@ body {
   background-color: #2a7fa0;
   color: #fff;
 }
+
+/* RESPONSIVENESS */
 @media (max-width: 768px) {
   .center-container {
     width: 320px;
   }
-
+  .background-container {
+    background-size: 180%;
+    /* background-position: top;
+    background-size: center; */
+  }
   .card-title {
     font-size: 18px;
   }

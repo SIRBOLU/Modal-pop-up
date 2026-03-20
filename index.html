@@ -1,60 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Modal Popup</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Popup</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Centered Button -->
 
-<!-- Centered Button -->
-
-<div class="background-container">
-  <div class="center-container">
-    <h2 class="card-title">Exclusive Deals Await</h2>
-    <p class="card-subtitle">Unlock your first order discount</p>
-    <button id="openModal" class="open-btn">View Offer</button>
-  </div>
-</div>
-
-<!-- Overlay -->
-<div id="modalOverlay" class="overlay">
-
-  <!-- Modal -->
-  <div class="modal">
-
-    <!-- Close Button -->
-    <span class="close-btn" id="closeModal">&times;</span>
-
-    <!-- Left Image -->
-    <div class="modal-left">
-      <img src="/images/salespage.png" alt="Sales Page Image">
+    <div class="background-container">
+      <div class="center-container">
+        <h2 class="card-title">Exclusive Deals Await</h2>
+        <p class="card-subtitle">Unlock your first order discount</p>
+        <button id="openModal" class="open-btn">View Offer</button>
+      </div>
     </div>
 
-    <!-- Right Content -->
-    <div class="modal-right">
-      <h2>Unlock <span>10% Off</span><br>Your First Order</h2>
+    <!-- Overlay -->
+    <div id="modalOverlay" class="overlay">
+      <!-- Modal -->
+      <div class="modal">
+        <!-- Close Button -->
+        <span class="close-btn" id="closeModal">&times;</span>
 
-      <input type="email" placeholder="Email">
+        <!-- Left Image -->
+        <div class="modal-left">
+          <img src="/images/salespage.png" alt="Sales Page Image" />
+        </div>
 
-      <button class="submit-btn">UNLOCK OFFERS</button>
+        <!-- Right Content -->
+        <div class="modal-right">
+          <h2>Unlock <span>10% Off</span><br />Your First Order</h2>
 
-      <p class="small-text">
-        By signing up, you agree to receive email marketing from Buddah brands.
-        You can always unsubscribe, at any time.
-      </p>
+          <input type="email" placeholder="Email" />
 
-      <a href="#" id="noThanks" class="no-thanks"><button class="thanks-btn">No, thanks!</button></a>
-      
+          <button class="submit-btn">UNLOCK OFFERS</button>
 
+          <p class="small-text">
+            By signing up, you agree to receive email marketing from Buddah
+            brands. You can always unsubscribe, at any time.
+          </p>
+
+          <a href="google.com" id="noThanks" class="no-thanks"
+            ><button class="thanks-btn">No, thanks!</button></a
+          >
+        </div>
+      </div>
     </div>
 
-  </div>
-
-</div>
-</div>
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
